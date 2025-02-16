@@ -1,0 +1,64 @@
+.left-container2 {
+  background-image: url("../../../public/image/road.jpg"); /* Đường dẫn từ folder public */
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.right-container {
+  .input-form {
+    color: rgb(112, 114, 117);
+
+    .white-background {
+      background-color: white;
+    }
+    .no-border {
+      border: none;
+      box-shadow: none;
+    }
+
+    .horizontal-line {
+      color: rgb(112, 114, 117);
+      border-width: 3px;
+    }
+    .have-account-container {
+      display: flex;
+      flex-direction: row-reverse;
+      a {
+        text-decoration: none;
+        color: rgb(33, 37, 41);
+        font-weight: 450;
+      }
+    }
+
+    .register-button {
+      background: linear-gradient(to right, #af4c72, #960082);
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 20px;
+    }
+
+    .sign-up-container {
+      .icon {
+        width: 2.5em;
+        height: 2.5em;
+      }
+    }
+  }
+
+  .other-signup-container {
+    .icon {
+      width: 2.5em;
+      height: 2.5em;
+    }
+  }
+}

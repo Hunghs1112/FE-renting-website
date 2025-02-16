@@ -1,0 +1,17 @@
+.container {
+  .search-bar {
+    white-space: nowarp;
+    max-height: 50px;
+
+    .search-btn {
+      max-height: 30px;
+      font-size: 15px;
+    }
+  }
+
+  .filter-options {
+    .btn {
+      white-space: nowarp;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("../src/public/image/cityBackground.jpg"); /* Đường dẫn từ folder public */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .app-header {
+      flex-shrink: 0;
+    }
+    .app-body {
+      flex-grow: 1;
+      overflow-y: auto;
+      overflow-x: hidden;
+
+      .home-container {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7);
+        .row {
+          .left-side {
+            hr {
+              border-width: 2px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

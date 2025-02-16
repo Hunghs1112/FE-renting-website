@@ -1,0 +1,15 @@
+body {
+  .navbar {
+    border-bottom: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.85);
+    .container {
+      .navbar-collapse {
+        a.active {
+          background-color: white;
+          color: black;
+          border-radius: 8%;
+        }
+      }
+    }
+  }
+}
